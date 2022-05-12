@@ -1,1 +1,28 @@
 @charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+#footer {
+    background-color: #059a03;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    position: static;
+    bottom: 0;
+}
