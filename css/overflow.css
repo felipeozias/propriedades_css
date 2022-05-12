@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+main {
+    padding: 20px;
+    text-align: center;
+    align-self: center;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    border: solid 1px;
+    margin: 30px;
+    display: inline-block;
+}
+
+p{
+    font-size: 20pt;
+}
+
+.caixa1 p{
+    overflow: visible;
+}
+
+.caixa2 p{
+    overflow: hidden;
+}
+
+.caixa3 p{
+    overflow: scroll;
+}
+
+.caixa4 p{
+    overflow: auto;
+}
