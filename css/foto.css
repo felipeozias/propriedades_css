@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    margin: 20px;
+    border: solid 1px #9b9b9b8e;
+    border-radius: 50%;
+    box-shadow:5px 5px 20px 1px black;
+}
+
