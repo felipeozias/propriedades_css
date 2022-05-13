@@ -29,6 +29,6 @@
 }
 
 #menu a:hover {
-    background-color: aqua;
+    background-color: #007466;
     transition: background .3s;
 }
