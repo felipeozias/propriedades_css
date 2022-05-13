@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/* CSS DA PÁGINA BORDA */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    align-self: center;
+}
+
+.caixa_geral {
+    min-height: 250px;
+    min-width: 130px;
+    margin: 10px;
+    border: solid 1px;
+    background-color: rgb(209, 227, 255);
+    border-radius: 5px;
+}
+
+.caixa_geral>div {
+    display: inline-block;
+    border: solid 1px;
+    margin: 5px;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.caixa_geral div>div {
+    height: 150px;
+    width: 150px;
+    margin: 10px 15px 0 15px;
+    display: inline-block;
+    background-image: radial-gradient(#14c2e1, #a3f0ff);
+}
+
+.texto_caixa {
+    font-size: 12pt;
+}
+
+.caixa1 {
+    border-top: solid;
+}
+
+.caixa2 {
+    border-right: solid;
+}
+
+.caixa3 {
+    border-bottom: solid;
+}
+
+.caixa4 {
+    border-left: solid;
+}
+
+.caixa5 {
+    border: solid 1px;
+}
+
+.caixa6 {
+    border: solid 5px;
+}
+
+.caixa7 {
+    border: solid 5px red;
+}
+
+.caixa8 {
+    border: solid 5px;
+    border-color: red blue yellow green;
+}
+
+.caixa9 {
+    border: red 6px dotted;
+}
+
+.caixa10 {
+    border: red 6px dashed;
+}
+
+.caixa11 {
+    border: red 6px double;
+}
+
+.caixa12 {
+    border: red 6px groove;
+}
+
+.caixa13 {
+    border: red 6px ridge;
+}
+
+.caixa14 {
+    border: red 6px inset;
+}
+
+.caixa15 {
+    border: red 6px outset;
+}
+
+.caixa16 {
+    border: solid blue 5px;
+    border-radius: 30px;
+}
+
+.caixa17 {
+    border: solid 5px;
+    border-color: blue red yellow green;
+    border-radius: 50%;
+}
+
+.caixa18 {
+    border: solid blue 5px;
+    border-radius: 10px 20px;
+}
+
+.caixa19 {
+    border: solid blue 5px;
+    border-radius: 10px 20px 30px;
+}
+
+.caixa20 {
+    border: solid blue 5px;
+    border-radius: 10px 20px 30px 40px;
+}
