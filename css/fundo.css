@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+main {
+    padding: 20px;
+    text-align: center;
+    align-self: center;
+}
+
+.caixa_geral {
+    min-height: 250px;
+    max-width: 700px;
+    min-width: 130px;
+    border: solid 1px;
+    background-color: rgb(209, 227, 255);
+}
+
+.caixa_geral>div {
+    display: inline-block;
+    border: solid 1px;
+    margin: 5px;
+}
+
+.caixa_geral div>div {
+    height: 150px;
+    width: 150px;
+    border: solid 1px;
+    margin: 10px 10px 0 10px;
+    display: inline-block;
+}
+
+.texto_caixa {
+    font-size: 12pt;
+}
+
+.caixa1 {
+    background-color: blue;
+}
+
+.caixa2 {
+    background-color: #0000ff80;
+}
+
+.caixa3 {
+    background-image: linear-gradient(to left, #949494, #d2d2d2);
+}
+
+.caixa4 {
+    background-image: radial-gradient(#87fffd, #3194d7);
+}
+
+.caixa5 {
+    background-image: url(../img/fundo1.png);
+}
+
+.caixa6 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: no-repeat;
+}
+
+.caixa7 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: repeat-x;
+}
+
+.caixa8 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: repeat-y;
+}
+
+.caixa9 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: space;
+}
+
+.caixa10 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: round;
+}
+
+.caixa11 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: initial;
+}
+
+.caixa12 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: inherit;
+}
+
+.caixa13 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: space repeat;
+}
+
+.caixa14 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: repeat space;
+}
+
+.caixa15 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.caixa16 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.caixa17 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.caixa18 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.caixa19 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.caixa20 {
+    background-image: url(../img/fundo1.png);
+    background-repeat: no-repeat;
+    background-position: left 25px top 50px;
+}
