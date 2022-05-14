@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    padding: 5px 20px;
+}
+
+h2{
+    border: solid 3px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.texto1{
+    color: blue;
+    writing-mode: horizontal-tb;
+}
+
+.texto2{
+    color: red;
+    writing-mode: vertical-lr;
+}
+
+.texto3{
+    color: green;
+    writing-mode: vertical-rl;
+}
+
+.texto4{
+    color:brown;
+    writing-mode:vertical-lr;
+    text-orientation: upright;
+}
+
