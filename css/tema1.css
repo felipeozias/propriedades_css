@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#titulo {
+    color: rgb(24, 0, 208);
+    background-color: #dcdcdc;
+    text-align: center;
+    padding: 10px;
+}
+
+.tag {
+    color: blue;
+    margin: 15px 0px 5px 0px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 16pt;
+    font-style: italic;
+    font-family: Georgia;
+    margin: 5px;
+}
+
+.utilizacao {
+    border: solid 2px black;
+    border-radius: 10pt;
+    padding: 10px 20px;
+}
+
+.strong_tag,
+.p_codigo {
+    color: crimson
+}
+
+.class_article {
+    padding: 0 20px;
+}
+
+.tag_section {
+    margin: 20px 0;
+}
